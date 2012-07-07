@@ -3,11 +3,11 @@ $:.push File.expand_path("../lib", __FILE__)
 require File.dirname(__FILE__) + "/version"
 
 Gem::Specification.new do |s|
-  s.name        = "appscrolls"
+  s.name        = "jcf-appscrolls"
   s.version     = AppScrollsScrolls::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["Michael Bleigh", "Dr Nic Williams"]
-  s.email       = ["michael@intridea.com", "drnicwilliams@gmail.com"]
+  s.authors     = ["Michael Bleigh", "Dr Nic Williams", "James Conroy-Finn"]
+  s.email       = ["michael@intridea.com", "drnicwilliams@gmail.com", "james@logi.cl"]
   s.homepage    = "http://appscrolls.org/"
   s.summary     = %q{The App Scrolls is a magical tool to generate new Rails and modify existing Rails applications (coming) to include your favourite, powerful magic.}
   s.description = s.summary
